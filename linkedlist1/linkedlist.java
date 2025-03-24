@@ -185,7 +185,7 @@ public class linkedlist{
             head=head.next;
             return;
         }
-        //to reach till size-n inorder toget prev
+        //to reach till size-n inorder to get prev
         int i=1;
         int iTofind=sz-n;
         Node prev=head;
@@ -268,7 +268,7 @@ public static void main(String args[]){
         ll.reverse();
         ll.printList();
         //remove nth from end
-        ll.removeNthFromEnd(3);
+        ll.removeNthFromEnd(2);
         ll.printList();
         //palindrome 
         System.out.println(ll.Palindrome());
